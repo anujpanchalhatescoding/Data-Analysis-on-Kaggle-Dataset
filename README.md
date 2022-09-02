@@ -7,11 +7,3 @@ The dataset is taken from kaggle and contains details of the used cars in german
 The dataset is not clean and hence a lot of data cleaning is carried out. For e.g. prices where too high which are replaced by the median and outliers are removed accordingly.
 Also vehicles whose registration year was greater than 2016 and less than 1890 were removed from the dataset as this data is inconsistense and would yield incorrect results.
 The dataset is cleaned and stored in a CleanData folder which contains the entire cleaned dataset named as cleaned_autos.csv and another folder named DataForAnalysis containing files structures containing subsets of the cleaned dataset based on brand of the vehicles and vehicle types.
-
-The main folder contains 9 folders.
-
-Folders from Analysis1 - Analysis5 contain the iPython Notebook, python scripts along with the Plots for that analysis.
-Folder for shell scripts which automate the creation of files structures and splitting the data as mentioned above.
-Datapreparation folder contains the Datapreparation iPython Script for cleaning of data.
-CleanData folder contains the clean dataset and subsets of data as per the file structure.
-RawData folder which contains the raw dataset.
